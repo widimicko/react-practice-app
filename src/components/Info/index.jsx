@@ -1,12 +1,11 @@
 import React from "react";
 
 import image from '../../assets/image1.png'
-// import { EnvelopeFill, Linkedin } from 'react-bootstrap-icons';
 
 function Info() {
  return (
-   <div className="rounded-t-lg">
-    <img src={image} alt="" className="" />
+   <div>
+    <img src={image} alt="" className="w-full" />
     <div className="text-center mb-4">
       <p className="text-white font-bold text-2xl">Laura Smith</p>
       <p className="text-orange-500">Frontend Developer</p>

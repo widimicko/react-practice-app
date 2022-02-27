@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="flex justify-center">
-      <div className="w-[316px] bg-[#1A1B21]">
+      <div className="w-[400px] bg-[#1A1B21] rounded-t-3xl">
         <Info />
         <div className="p-4 text-white text-justify">
           <About />
