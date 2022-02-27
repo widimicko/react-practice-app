@@ -1,12 +1,20 @@
 import React from "react";
-import Navbar from './components/Navbar'
-import Main from './components/Main'
+import Info from './components/Info'
+import About from './components/About'
+import Interests from "./components/Interests";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
+    <div className="flex justify-center">
+      <div className="w-[316px] bg-[#1A1B21]">
+        <Info />
+        <div className="p-4 text-white text-justify">
+          <About />
+          <Interests />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
